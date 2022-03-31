@@ -1,0 +1,38 @@
+/*================================================================================
+	Item Name: Frest HTML Admin Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.allcaps {
+	text-transform:uppercase;
+}
+.chosen-container-single{
+	width:100% !important;
+  }
+.overlay {
+	position: absolute;
+    display: flex;
+    display: table;
+    z-index: 1;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+    color: #FFF;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.overlay>div {
+	background: red;
+    padding: 1em 3em;
+	text-transform:uppercase;
+	font-weight:bold;
+	box-shadow: 0 0 19px #533030;
+}
